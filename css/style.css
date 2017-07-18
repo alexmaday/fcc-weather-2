@@ -1,0 +1,80 @@
+body {
+  margin-top: 3rem;
+  background: #3E92F0;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1>small {
+  color: white;
+}
+.jumbotron, .well {
+  transition: all 0.4s ease;
+  background-color: rgba(0, 0, 0, 0.38);
+  text-shadow: 1px 1px 2px #e1e0e8;
+  border: none;
+}
+
+.jumbotron:hover, .well:hover {
+  background-color: rgba(0, 0, 0, 0.58);
+}
+#app-title h1 {
+  font-family: 'Alfa Slab One', cursive;
+
+}
+
+#app-details p {
+/*   font-size: 2rem; */
+}
+
+#title-details {
+  font-family: Abel, sans-serif;
+}
+.footer {
+  position: relative;
+ 
+  
+}
+.social {
+  position: fixed;
+  right: 50%;
+  transform: translatex(50%);
+  bottom: 0px;
+}
+.social ul {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social-images {
+  width: 45px;
+}
+
+#units {
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  transition: all .5s ease .1s;
+}
+
+#units:hover {
+  text-shadow: 2px 2px 2px #e1e0e8;
+  font-weight: bolder;
+}
+
+#weather-desc {
+  text-transform: capitalize;
+}
+
+@media all and (max-width: 480px) {
+  #units {
+    font-size: 4rem;
+  }
+}
